@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.text:focus {
+  outline: none;
+}
+
+.text {
+  font-family: monospace;
+  caret-color: #3c3c3c;
+  max-width: 700px;
+  padding: 20px;
+  margin: auto;
+  color: #3c3c3c;
+  background-color: #fafafa;
+  border: none;
+  display: block;
+  line-height: 1.6;
+  font-size: 20px;
+  text-overflow: ellipsis;
+}
