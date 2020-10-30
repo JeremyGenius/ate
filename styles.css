@@ -5,22 +5,27 @@
 }
 
 body {
-  background-color: #fafafa;
-}
-
-.text-field:focus {
-  outline: none;
-}
-
-.text-field {
-  font-family: monospace;
-  caret-color: #3c3c3c;
-  width: 100%;
-  padding: 20px 300px;
-  margin: auto;
   color: #3c3c3c;
   background-color: #fafafa;
-  line-height: 1.6;
+  font-family: sans-serif;
+  width: 700px;
+  margin: auto;
+}
+
+h1, h2 {
+  margin: 10px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p, a {
+  margin: 10px;
   font-size: 20px;
-  text-overflow: ellipsis;
 }
