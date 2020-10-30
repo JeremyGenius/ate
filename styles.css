@@ -8,20 +8,18 @@ body {
   background-color: #fafafa;
 }
 
-.text:focus {
+.text-field:focus {
   outline: none;
 }
 
-.text {
+.text-field {
   font-family: monospace;
   caret-color: #3c3c3c;
-  max-width: 700px;
-  padding: 20px;
+  width: 100%;
+  padding: 20px 300px;
   margin: auto;
   color: #3c3c3c;
   background-color: #fafafa;
-  border: none;
-  display: block;
   line-height: 1.6;
   font-size: 20px;
   text-overflow: ellipsis;
