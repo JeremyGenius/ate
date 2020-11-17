@@ -1,1 +1,34 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta content="width=device-width, initial-scale=1" name=viewport><meta content="It&rsquo;s like taking a bite into a crisp, clean writing app for all your devices." name=description><title>Ate - An Amazing Text Editor</title><link href=styles.css rel=stylesheet><body><div class=menubar><div class=menubar-background></div><h1 class=title>Ate</h1><button class=menu-button><img alt=More draggable=false src=menu-button-icon.svg></button></div><div autofocus class=text-field contenteditable=plaintext-only>Welcome to Ate, an Amazing text editor. It&rsquo;s like taking a bite into a crisp, clean writing and note-taking app for all your devices.<br><br>Go ahead: try editing this text, jot down a fresh idea, or paste in something you&rsquo;ve been working on...</div><div class=menu-background><div class=menu-box><button class=close-menu-button><img alt=More class=close-menu-button-icon draggable=false src=close-menu-button-icon.svg></button><input accept=.txt,.md,.markdown class="import-file-button menu-action-button" type=file><button class="export-file-button menu-action-button">Export file</button><button class="copy-text-button menu-action-button">Copy text</button><button class="change-theme-button menu-action-button">Change theme</button></div></div><script src=app.js></script>
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'/>
+    <meta name='viewport' content='width=device-width, initial-scale=1'/>
+    <meta name="description" content='It&rsquo;s like taking a bite into a crisp, clean writing app for all your devices.'>
+    <title>Ate - An Amazing Text Editor</title>
+    <link rel='stylesheet' href='styles.css'/>
+    <link rel='icon' href='images/favicon.png'/>
+    <link rel='apple-touch-icon' href='images/apple-touch-icon.png'/>
+    <link rel='manifest' href='manifest.webmanifest'/>
+  </head>
+  <body>
+    <div class='menubar'>
+      <div class='menubar-background'></div>
+      <div class='app-name-icon'>
+        <img src='images/app-icon.svg' alt='Ate icon' draggable='false' class='app-icon'/>
+        <h1 class='title'>Ate</h1>
+      </div>
+      <button class='menu-button'><img src='images/menu-button-icon.svg' alt='More' draggable='false'/></button>
+    </div>
+    <div contenteditable='plaintext-only' autofocus class='text-field'>Welcome to Ate, an Amazing text editor. It&rsquo;s like taking a bite into a crisp, clean writing and note-taking app for all your devices.<br/><br/>Go ahead: try editing this text, jot down a fresh idea, or paste in something you&rsquo;ve been working on...</div>
+    <div class='menu-background'>
+      <div class='menu-box'>
+        <button class='close-menu-button'><img src='images/close-menu-button-icon.svg' alt='More' draggable='false' class='close-menu-button-icon'></button>
+        <input type='file' accept='.txt,.md,.markdown' class='import-file-button menu-action-button'/>
+        <button class='export-file-button menu-action-button'>Export file</button>
+        <button class='copy-text-button menu-action-button'>Copy text</button>
+        <button class='change-theme-button menu-action-button'>Change theme</button>
+      </div>
+    </div>
+  </body>
+  <script src='app.js'></script>
+</html>
