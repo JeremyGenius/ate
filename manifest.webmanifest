@@ -1,5 +1,5 @@
 {
-  "short-name": "Ate",
+  "short_name": "Ate",
   "name": "Ate - An Amazing Text Editor",
   "description": "It&rsquo;s like taking a bite into a crisp, clean writing app for all your devices.",
   "icons": [
@@ -14,8 +14,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
-  "background-color": "#fafafa",
+  "start_url": "/ate",
+  "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/",
   "theme_color": "#3c3c3c"
